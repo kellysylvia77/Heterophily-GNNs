@@ -1,6 +1,4 @@
-# Heterophily-GNNs
-
-* 2023
+# 2023 Paper List
 1. Beyond Smoothing: Unsupervised Graph Representation Learning with Edge Heterophily Discriminating, AAAI [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/25573)][[code]( https://github.com/yixinliu233/GREET)]
 2. From Node Interaction to Hop Interaction: New Effective and Scalable Graph Learning Paradigm, CVPR [[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_From_Node_Interaction_To_Hop_Interaction_New_Effective_and_Scalable_CVPR_2023_paper.pdf)][[code](https://github.com/JC-202/HopGNN)]
 3. Equivariant Hypergraph Diffusion Neural Operators, ICLR [[paper](https://openreview.net/pdf?id=RiTjKoscnNd)][[code](https://github.com/Graph-COM/ED-HNN)]
@@ -13,3 +11,26 @@
 10. SE-GSL: A General and Effective Graph Structure Learning Framework through Structural Entropy Optimization, WWW [[paper](https://penghao-bdsc.github.io/papers/A%20General%20and%20Effective%20Graph%20Structure%20Learning%20Framework%20through%20Structural%20Entropy%20Optimization.pdf)][[code]( https://github.com/RingBDStack/SE-GSL)]
 11. Addressing Heterophily in Graph Anomaly Detection: A Perspective of Graph Spectrum, WWW [[paper](https://blacksingular.github.io/papers/www23-GHRN.pdf)][[code](https://github.com/blacksingular/GHRN)]
 12. Robust Mid-Pass Filtering Graph Convolutional Networks, WWW [[paper](https://arxiv.org/pdf/2302.08048.pdf)]
+13. Beyond Low-Pass Filtering: Graph Convolutional Networks With Automatic Filtering, TKDE [[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9806316)][[code]( https://github.com/nnzhan/AutoGCN)]
+
+# 2022 Paper List
+1. EvenNet: Ignoring Odd-Hop Neighbors Improves Robustness of Graph Neural Networks, NeurIPS [[paper](https://openreview.net/pdf?id=SPoiDLr3WE7)][[code](https://github.com/Leirunlin/EvenNet)]
+2. GARNET: Reduced-Rank Topology Learning for Robust and Scalable Graph Neural Networks, LoG [[paper](https://proceedings.mlr.press/v198/deng22a/deng22a.pdf)][[code](https://github.com/cornell-zhang/GARNET)]
+3. GBK-GNN: Gated Bi-Kernel Graph Neural Networks for Modeling Both Homophily and Heterophily, WWW [[paper](https://arxiv.org/pdf/2110.15777.pdf)]
+4. Finding Global Homophily in Graph Neural Networks when Meeting Heterophily, ICML [[paper](https://proceedings.mlr.press/v162/li22ad/li22ad.pdf)][[code](https://github.com/RecklessRonan/GloGNN)]
+5. NCGNN: Node-Level Capsule Graph Neural Network for Semisupervised Classification, TNNLS [[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9792205)]
+6. RAW-GNN: RAndom Walk Aggregation based Graph Neural Network, IJCAI [[paper](https://www.ijcai.org/proceedings/2022/0293.pdf)]
+7. Block Modeling-Guided Graph Convolutional Neural Networks, AAAI [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/20319)][[code]()]
+8. Decoupled Self-supervised Learning for Graphs, NeurIPS [[paper](https://proceedings.neurips.cc/paper_files/paper/2022/file/040c816286b3844fd78f2124eec75f2e-Paper-Conference.pdf)]
+9. Deformable Graph Convolutional Networks, AAAI [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/20765)][[code](https://github.com/mlvlab/DeformableGCN)]
+10. Graph Pointer Neural Networks, AAAI [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/20864)]
+11. Graph Representation Learning Beyond Node and Homophily, TKDE [[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9695254)]
+12. Meta-Weight Graph Neural Network: Push the Limits Beyond Global Homophily, WWW [[paper](https://www.atailab.cn/seminar2022Spring/pdf/2022_WWW_Meta-Weight%20Graph%20Neural%20Network_Push%20the%20Limits%20Beyond%20Global%20Homophily.pdf)]
+13. Simplified Graph Convolution with Heterophily, NeurIPS [[paper](https://proceedings.neurips.cc/paper_files/paper/2022/file/ae07d152c51ea2ddae65aa7192eb5ff7-Paper-Conference.pdf)]
+14. Designing the Topology of Graph Neural Networks: A Novel Feature Fusion Perspective, WWW [[paper](https://arxiv.org/pdf/2112.14531.pdf)][[code](https://github.com/AutoML-Research/F2GNN)]
+15. Label-Wise Graph Convolutional Network for Heterophilic Graphs, LoG [[paper](https://openreview.net/pdf?id=HRmby7yVVuF)][[code](https://github.com/EnyanDai/LWGCN)]
+16. Memory-Based Message Passing: Decoupling the Message for Propagation from Discrimination, ICASSP [[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9747635)]
+17. Neural Sheaf Diffusion: A Topological Perspective on Heterophily and Oversmoothing in GNNs, NeurIPS [[paper](https://proceedings.neurips.cc/paper_files/paper/2022/file/75c45fca2aa416ada062b26cc4fb7641-Paper-Conference.pdf)][[code](https://github.com/twitter-research/neural-sheaf-diffusion)]
+18. Non-Local Graph Neural Networks, TPAMI [[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9645300)]
+19. Optimization-Induced Graph Implicit Nonlinear Diffusion, ICML [[paper](https://proceedings.mlr.press/v162/chen22z/chen22z.pdf)][[code](https://github.com/7qchen/GIND)]
+20. Powerful Graph Convolutional Networks with Adaptive Propagation Mechanism for Homophily and Heterophily, AAAI [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/20340)]
