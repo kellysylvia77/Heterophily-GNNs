@@ -3,7 +3,7 @@
 2. Large Scale Learning on Non-Homophilous Graphs: New Benchmarks and Strong Simple Methods, NeurIPS, 2021 [paper](https://proceedings.neurips.cc/paper_files/paper/2021/file/ae816a80e4c1c56caa2eb4e1819cbb2f-Paper.pdf)][[code](https://github.com/CUAI/Non-Homophily-Large-Scale)]
 3. A Critical Look at the Evaluation of GNNs under Heterophily: Are We Really Making Progress?, ICLR, 2023 [[paper](https://openreview.net/pdf?id=tJbbQfw-5wv)][[code](https://github.com/yandex-research/heterophilous-graphs)]
 
-# Homophily Ratio Metric
+# Homophily Ratio
 1. Geom-GCN: Geometric Graph Convolutional Networks, ICLR, 2020 [[paper](https://openreview.net/pdf?id=S1e2agrFvS)][[code](https://github.com/graphdml-uiuc-jlu/geom-gcn)]
 2. Beyond Homophily in Graph Neural Networks: Current Limitations and Effective Designs, NeurIPS, 2020 [[paper](https://proceedings.neurips.cc/paper_files/paper/2020/file/58ae23d878a47004366189884c2f8440-Paper.pdf)][[code](https://github.com/GemsLab/H2GCN)]
 3. Characterizing Graph Datasets for Node Classification: Homophily–Heterophily Dichotomy and Beyond, Arxiv, 2022 [[paper](https://arxiv.org/pdf/2209.06177.pdf)]
