@@ -34,3 +34,10 @@
 18. Non-Local Graph Neural Networks, TPAMI [[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9645300)]
 19. Optimization-Induced Graph Implicit Nonlinear Diffusion, ICML [[paper](https://proceedings.mlr.press/v162/chen22z/chen22z.pdf)][[code](https://github.com/7qchen/GIND)]
 20. Powerful Graph Convolutional Networks with Adaptive Propagation Mechanism for Homophily and Heterophily, AAAI [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/20340)]
+21. From Local to Global: Spectral-Inspired Graph Neural Networks, NeurIPS [[paper](https://openreview.net/pdf?id=DhICIwGint_)][[code](
+https://github.com/nhuang37/spectral-inspired-gnn)]
+22. Global-Local Graph Neural Networks for Node-Classification, LoG [[paper](https://openreview.net/pdf?id=YCgwkDo56q)][[code]()]
+23. Leave Graphs Alone: Addressing Over-Squashing without Rewiring, LoG [[paper](https://openreview.net/pdf?id=vEbUaN9Z2V8)]
+24. Graph Decoupling Attention Markov Networks for Semisupervised Graph Node Classification, TNNLS [[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9744550)]
+25. Understanding and Improving Graph Injection Attack by Promoting Unnoticeability, ICLR [[paper](https://openreview.net/pdf?id=wkMG8cdvh7-)][[code](https://github.com/LFhase/GIA-HAO)]
+26. How does Heterophily Impact the Robustness of Graph Neural Networks? Theoretical Connections and Practical Implications, KDD [[paper](https://arxiv.org/pdf/2106.07767.pdf)][[code](https://github.com/GemsLab/HeteRobust)]
