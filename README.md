@@ -9,6 +9,52 @@
 3. Characterizing Graph Datasets for Node Classification: Homophily–Heterophily Dichotomy and Beyond, Arxiv, 2022 [[paper](https://arxiv.org/pdf/2209.06177.pdf)]
 4. Large Scale Learning on Non-Homophilous Graphs: New Benchmarks and Strong Simple Methods, NeurIPS, 2021 [[paper](https://proceedings.neurips.cc/paper_files/paper/2021/file/ae816a80e4c1c56caa2eb4e1819cbb2f-Paper.pdf)][[code](https://github.com/CUAI/Non-Homophily-Large-Scale)]
 
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-baqh{text-align:center;vertical-align:top}
+.tg .tg-amwm{font-weight:bold;text-align:center;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-amwm">Measure Methods</th>
+    <th class="tg-amwm">Formula</th>
+    <th class="tg-amwm">Description</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-baqh">Node Homophily</td>
+    <td class="tg-baqh">$\mathcal{H}_{\text {node}}=\frac{1}{|\mathcal{V}|} \sum_{v \in \mathcal{V}} \frac{\left|\left\{u \in \mathcal{N}(v): y_v=y_u\right\}\right|}{|\mathcal{N}(v)|}$</td>
+    <td class="tg-baqh"></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">Edge Homophily</td>
+    <td class="tg-baqh">$\mathcal{H}_{\text {edge}}=\frac{\left|\left\{(v, u) \in \mathcal{E}: y_v=y_u\right\}\right|}{|\mathcal{E}|}$</td>
+    <td class="tg-baqh"></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">Label Informativeness (LI)</td>
+    <td class="tg-baqh">$\mathrm{LI}:=I\left(y_{\xi}, y_{\eta}\right)/H\left(y_{\xi}\right)$</td>
+    <td class="tg-baqh"></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">Adjusted Homophily</td>
+    <td class="tg-baqh">$h_{adj}=\frac{h_{edge}-\sum_{k=1}^C D_k^2/(2|E|)^2}{1-\sum_{k=1}^C D_k^2 /(2|E|)^2}$</td>
+    <td class="tg-baqh"></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">Homophily Measure</td>
+    <td class="tg-baqh">$\hat{h}=\frac{1}{C-1} \sum_{k=0}^{C-1}\left[h_k-\frac{\left|C_k\right|}{n}\right]_{+}$, $h_k=\frac{\sum_{u \in C_k} d_u^{\left(k_u\right)}}{\sum_{u \in C_k} d_u}$</td>
+    <td class="tg-baqh"></td>
+  </tr>
+</tbody>
+</table>
+
 # GNNs with Heterophily
 <table class="tg">
 <thead>
