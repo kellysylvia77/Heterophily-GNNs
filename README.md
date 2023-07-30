@@ -21,27 +21,27 @@
   <tr>
     <td class="tg-c3ow">Node Homophily</td>
     <td class="tg-c3ow">$$\mathcal{H}_{node}=\frac{1}{|\mathcal{V}|} \sum _{v\in\mathcal{V}}\frac{|{u\in\mathcal{N}(v):y_v=y_u}|}{|\mathcal{N}(v)|}$$</td>
-    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow">$\mathcal{H}_{node}\in [0,1]$</td>
   </tr>
   <tr>
     <td class="tg-c3ow">Edge Homophily</td>
     <td class="tg-c3ow">$$\mathcal{H}_{edge}=\frac{\left|\left\{(v, u) \in \mathcal{E}: y_v=y_u\right\}\right|}{|\mathcal{E}|}$$</td>
-    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow">$\mathcal{H}_{edge}\in [0,1]$</td>
   </tr>
   <tr>
     <td class="tg-c3ow">Label Informativeness (LI)</td>
     <td class="tg-c3ow">$$\mathrm{LI}:=I\left(y_{\xi}, y_{\eta}\right)/H\left(y_{\xi}\right)$$</td>
-    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow">$\mathrm{LI}\in [0,1]$, LI is a simple graph characteristic suitable for comparing different datasets. It complements homophily by distinguishing different types of heterophilous graphs.</td>
   </tr>
   <tr>
     <td class="tg-c3ow">Adjusted Homophily</td>
     <td class="tg-c3ow">$$h_{adj}=(h_{edge}- \sum _{k=1}^C D_k^2/(2|E|)^2) / (1- \sum _{k=1}^C D_k^2 /(2|E|)^2)$$</td>
-    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow">Adjusted homophily satisfifies maximal agreement, asymptotic constant baseline, and empty class tolerance.</td>
   </tr>
   <tr>
     <td class="tg-c3ow">Homophily Measure</td>
     <td class="tg-c3ow">$$\hat{h}=\frac{1}{C-1} \sum _{k=0}^{C-1}\left[h_k-\frac{\left|C_k\right|}{n}\right]_{+}, h_k=\frac{\sum _{u \in C_k} d_u^{\left(k_u\right)}}{\sum _{u \in C_k} d_u}$$</td>
-    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow">$\hat{h}\in [0,1]$, in general, $\hat{h}&lt; \mathcal{H}_{edge}$</td>
   </tr>
 </tbody>
 </table>
