@@ -46,6 +46,355 @@
 </tbody>
 </table>
 
+# GNNs with Heterophily
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-c3ow" colspan="2" rowspan="2">Tasks<br> </th>
+    <th class="tg-c3ow" rowspan="2">Methods</th>
+    <th class="tg-c3ow" colspan="2">Neighbor Extension</th>
+    <th class="tg-c3ow" colspan="3">GNN Architecture Refinement</th>
+  </tr>
+  <tr>
+    <th class="tg-c3ow">High-order<br><br>Neighbors</th>
+    <th class="tg-c3ow">Potential<br><br>Neighbors</th>
+    <th class="tg-c3ow">Message<br><br>Aggregation</th>
+    <th class="tg-c3ow">Ego-neighbor<br><br>Separation</th>
+    <th class="tg-c3ow">Inter-layer<br><br>Combination</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-c3ow" colspan="2" rowspan="28">Semi-Supervised Node Classification<br> <br> <br> </td>
+    <td class="tg-c3ow">EvenNet [2022]</td>
+    <td class="tg-c3ow"><span style="color:#000">Odd-hops</span></td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">PowerEmbed [2022]</td>
+    <td class="tg-c3ow"><span style="color:#000">Multi-hops</span></td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">√</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">DSSL [2022]</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">√</td>
+    <td class="tg-c3ow">-</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">LW-GCN [2022]</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">√</td>
+    <td class="tg-c3ow">√</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">GLGCN [2022]</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">√</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">GBK-GNN [2022]</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">Feat-aware</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">F2GNN [2022]</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">Wegt-aware</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">MWGNN [2022]</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">Feat &amp; Wegt-aware</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">GloGNN [2022]</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">Stru &amp; Feat Sim</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">√</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"> GIND [2022]</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">√</td>
+    <td class="tg-c3ow">-</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">NCGNN [2022]</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">Feat-aware</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">GDAMNs [2022]</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">Wegt-aware</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">RAW-GNN [2022]</td>
+    <td class="tg-c3ow">Multi-hops</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">Feat-aware</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">Deformable GCN [2022]</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">Stru &amp; Feat Sim</td>
+    <td class="tg-c3ow">Feat-aware</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">MMP [2022]</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">√</td>
+    <td class="tg-c3ow">-</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">NLGCN [2022]</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">Wegt-aware</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">HopGNN [2023]</td>
+    <td class="tg-c3ow">Multi-hops</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">Ordered GNN [2023]</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">√</td>
+    <td class="tg-c3ow">-</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">SNGNN [2023]</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">Feat Sim</td>
+    <td class="tg-c3ow">Feat-aware</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">CAGNNs [2023]</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">√</td>
+    <td class="tg-c3ow">√</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">CGP [2023]</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">Wegt-aware</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">RFA-GNN [2023]</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">Wegt-aware</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">HES-GSL [2023]</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">Feat Sim</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">SE-GSL [2023]</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">Stru &amp; Feat Sim</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">AutoGCN [2023]</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">Wegt-aware</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">GOAL [2023]</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">Stru &amp; Feat Sim</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">GOAT [2023]</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">Wegt-aware</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">GraphTU [2023]</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">Stru &amp; Feat Sim</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow" colspan="2" rowspan="5">Robust GNNs<br>(Adversarial Attacks)<br> </td>
+    <td class="tg-c3ow">GNNGuard [2020]</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">Feat Sim</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">GARNET [2022]</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">Wegt-aware</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">ATDGIA [2022]</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">Wegt-aware</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">HeteRobust [2022]</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">√</td>
+    <td class="tg-c3ow">√</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">Mid-GCN [2023]</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">Wegt-aware</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow" colspan="2" rowspan="2">Unsupervised Node Classification<br> <br> <br> </td>
+    <td class="tg-c3ow">PairE [2022]</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">√</td>
+    <td class="tg-c3ow">-</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">GREET [2023]</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">Wegt-aware</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow" rowspan="5">Others</td>
+    <td class="tg-c3ow">Dynamic graphs</td>
+    <td class="tg-c3ow">GReTo [2023]</td>
+    <td class="tg-c3ow">Multi-hops</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">Wegt-aware</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">Hypergraphs</td>
+    <td class="tg-c3ow">ED-HNN [2023]</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">√</td>
+    <td class="tg-c3ow">-</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow" rowspan="2">Graph Anomaly Detection</td>
+    <td class="tg-c3ow">GDN [2023]</td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">BHetero-GHRN [2023]</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">Wegt-aware</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">Node Clustering</td>
+    <td class="tg-c3ow">DGCN [2023]</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">Feat Sim</td>
+    <td class="tg-c3ow">Feat-aware</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+  </tr>
+</tbody>
+</table>
+
 # 2023 Paper List
 1. Beyond Smoothing: Unsupervised Graph Representation Learning with Edge Heterophily Discriminating, AAAI [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/25573)][[code]( https://github.com/yixinliu233/GREET)]
 2. From Node Interaction to Hop Interaction: New Effective and Scalable Graph Learning Paradigm, CVPR [[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_From_Node_Interaction_To_Hop_Interaction_New_Effective_and_Scalable_CVPR_2023_paper.pdf)][[code](https://github.com/JC-202/HopGNN)]
