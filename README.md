@@ -19,27 +19,27 @@
 </thead>
 <tbody>
   <tr>
-    <td class="tg-c3ow">Node Homophily</td>
+    <td class="tg-c3ow"><a href="https://openreview.net/pdf?id=S1e2agrFvS" target="_blank" rel="noopener noreferrer">Node Homophily</a></td>
     <td class="tg-c3ow">$$\mathcal{H}_{node}=\frac{1}{|\mathcal{V}|} \sum _{v\in\mathcal{V}}\frac{|{u\in\mathcal{N}(v):y_v=y_u}|}{|\mathcal{N}(v)|}$$</td>
     <td class="tg-c3ow">$\mathcal{H}_{node}\in [0,1]$</td>
   </tr>
   <tr>
-    <td class="tg-c3ow">Edge Homophily</td>
+    <td class="tg-c3ow"><a href="https://proceedings.neurips.cc/paper_files/paper/2020/file/58ae23d878a47004366189884c2f8440-Paper.pdf" target="_blank" rel="noopener noreferrer">Edge Homophily</a></td>
     <td class="tg-c3ow">$$\mathcal{H}_{edge}=\frac{\left|\left\{(v, u) \in \mathcal{E}: y_v=y_u\right\}\right|}{|\mathcal{E}|}$$</td>
     <td class="tg-c3ow">$\mathcal{H}_{edge}\in [0,1]$</td>
   </tr>
   <tr>
-    <td class="tg-c3ow">Label Informativeness (LI)</td>
+    <td class="tg-c3ow"><a href="https://arxiv.org/pdf/2209.06177.pdf" target="_blank" rel="noopener noreferrer">Label Informativeness (LI)</a></td>
     <td class="tg-c3ow">$$\mathrm{LI}:=I\left(y_{\xi}, y_{\eta}\right)/H\left(y_{\xi}\right)$$</td>
     <td class="tg-c3ow">$\mathrm{LI}\in [0,1]$, LI is a simple graph characteristic suitable for comparing different datasets. It complements homophily by distinguishing different types of heterophilous graphs.</td>
   </tr>
   <tr>
-    <td class="tg-c3ow">Adjusted Homophily</td>
+    <td class="tg-c3ow"><a href="https://arxiv.org/pdf/2209.06177.pdf" target="_blank" rel="noopener noreferrer">Label Informativeness (LI)</a></td>
     <td class="tg-c3ow">$$\mathcal{H}_{adj}=(\mathcal{H}_{edge}- \sum _{k=1}^C D_k^2/(2|E|)^2) / (1- \sum _{k=1}^C D_k^2 /(2|E|)^2)$$</td>
     <td class="tg-c3ow">Adjusted homophily satisfifies maximal agreement, asymptotic constant baseline, and empty class tolerance.</td>
   </tr>
   <tr>
-    <td class="tg-c3ow">Class Homophily</td>
+    <td class="tg-c3ow"><a href="https://proceedings.neurips.cc/paper_files/paper/2021/file/ae816a80e4c1c56caa2eb4e1819cbb2f-Paper.pdf" target="_blank" rel="noopener noreferrer">Class Homophily</a></td>
     <td class="tg-c3ow">$$\hat{h}=\frac{1}{C-1} \sum _{k=0}^{C-1}\left[h_k-\frac{\left|C_k\right|}{n}\right]_{+}, h_k=\frac{\sum _{u \in C_k} d_u^{\left(k_u\right)}}{\sum _{u \in C_k} d_u}$$</td>
     <td class="tg-c3ow">$\hat{h}\in [0,1]$, in general, $\hat{h}&lt; \mathcal{H}_{edge}$</td>
   </tr>
@@ -66,7 +66,7 @@
 <tbody>
   <tr>
     <td class="tg-c3ow" colspan="2" rowspan="28">Semi-Supervised Node Classification<br> <br> <br> </td>
-    <td class="tg-c3ow">EvenNet [2022]</td>
+    <td class="tg-c3ow"><a href="https://openreview.net/pdf?id=SPoiDLr3WE7" target="_blank" rel="noopener noreferrer">EvenNet</a> [2022 NeurIPS]</td>
     <td class="tg-c3ow"><span style="color:#000">Odd-hops</span></td>
     <td class="tg-c3ow">-</td>
     <td class="tg-c3ow">-</td>
@@ -74,7 +74,7 @@
     <td class="tg-c3ow">-</td>
   </tr>
   <tr>
-    <td class="tg-c3ow">PowerEmbed [2022]</td>
+    <td class="tg-c3ow"><a href="https://openreview.net/pdf?id=DhICIwGint_" target="_blank" rel="noopener noreferrer">PowerEmbed</a> [2022 NeurIPS]</td>
     <td class="tg-c3ow"><span style="color:#000">Multi-hops</span></td>
     <td class="tg-c3ow">-</td>
     <td class="tg-c3ow">-</td>
@@ -82,7 +82,7 @@
     <td class="tg-c3ow">√</td>
   </tr>
   <tr>
-    <td class="tg-c3ow">DSSL [2022]</td>
+    <td class="tg-c3ow"><a href="https://proceedings.neurips.cc/paper_files/paper/2022/file/040c816286b3844fd78f2124eec75f2e-Paper-Conference.pdf" target="_blank" rel="noopener noreferrer">DSSL</a> [2022 NeurIPS]</td>
     <td class="tg-c3ow">-</td>
     <td class="tg-c3ow">-</td>
     <td class="tg-c3ow">-</td>
@@ -90,7 +90,7 @@
     <td class="tg-c3ow">-</td>
   </tr>
   <tr>
-    <td class="tg-c3ow">LW-GCN [2022]</td>
+    <td class="tg-c3ow"><a href="https://openreview.net/pdf?id=HRmby7yVVuF" target="_blank" rel="noopener noreferrer">LW-GCN</a> [2022 LoG]</td>
     <td class="tg-c3ow">-</td>
     <td class="tg-c3ow">-</td>
     <td class="tg-c3ow">-</td>
@@ -98,7 +98,7 @@
     <td class="tg-c3ow">√</td>
   </tr>
   <tr>
-    <td class="tg-c3ow">GLGCN [2022]</td>
+    <td class="tg-c3ow"><a href="https://openreview.net/pdf?id=YCgwkDo56q" target="_blank" rel="noopener noreferrer">GLGNN</a> [2022 LoG]</td>
     <td class="tg-c3ow">-</td>
     <td class="tg-c3ow">-</td>
     <td class="tg-c3ow">-</td>
@@ -106,7 +106,7 @@
     <td class="tg-c3ow">√</td>
   </tr>
   <tr>
-    <td class="tg-c3ow">GBK-GNN [2022]</td>
+    <td class="tg-c3ow"><a href="https://arxiv.org/pdf/2110.15777.pdf" target="_blank" rel="noopener noreferrer">GBK-GNN</a> [2022 WWW]</td>
     <td class="tg-c3ow">-</td>
     <td class="tg-c3ow">-</td>
     <td class="tg-c3ow">Feat-aware</td>
@@ -114,7 +114,7 @@
     <td class="tg-c3ow">-</td>
   </tr>
   <tr>
-    <td class="tg-c3ow">F2GNN [2022]</td>
+    <td class="tg-c3ow"><a href="https://arxiv.org/pdf/2112.14531.pdf" target="_blank" rel="noopener noreferrer">F2GNN</a> [2022 WWW]</td>
     <td class="tg-c3ow">-</td>
     <td class="tg-c3ow">-</td>
     <td class="tg-c3ow">Wegt-aware</td>
@@ -122,7 +122,7 @@
     <td class="tg-c3ow">-</td>
   </tr>
   <tr>
-    <td class="tg-c3ow">MWGNN [2022]</td>
+    <td class="tg-c3ow"><a href="https://www.atailab.cn/seminar2022Spring/pdf/2022_WWW_Meta-Weight%20Graph%20Neural%20Network_Push%20the%20Limits%20Beyond%20Global%20Homophily.pdf" target="_blank" rel="noopener noreferrer">MWGNN</a> [2022 WWW]</td>
     <td class="tg-c3ow">-</td>
     <td class="tg-c3ow">-</td>
     <td class="tg-c3ow">Feat &amp; Wegt-aware</td>
@@ -130,7 +130,7 @@
     <td class="tg-c3ow">-</td>
   </tr>
   <tr>
-    <td class="tg-c3ow">GloGNN [2022]</td>
+    <td class="tg-c3ow"><a href="https://proceedings.mlr.press/v162/li22ad/li22ad.pdf" target="_blank" rel="noopener noreferrer">GloGNN</a> [2022 ICML]</td>
     <td class="tg-c3ow">-</td>
     <td class="tg-c3ow">Stru &amp; Feat Sim</td>
     <td class="tg-c3ow">-</td>
@@ -138,7 +138,7 @@
     <td class="tg-c3ow">√</td>
   </tr>
   <tr>
-    <td class="tg-c3ow"> GIND [2022]</td>
+    <td class="tg-c3ow"> <a href="https://proceedings.mlr.press/v162/chen22z/chen22z.pdf" target="_blank" rel="noopener noreferrer">GIND</a> [2022 ICML]</td>
     <td class="tg-c3ow">-</td>
     <td class="tg-c3ow">-</td>
     <td class="tg-c3ow">-</td>
@@ -146,7 +146,7 @@
     <td class="tg-c3ow">-</td>
   </tr>
   <tr>
-    <td class="tg-c3ow">NCGNN [2022]</td>
+    <td class="tg-c3ow"><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9792205&tag=1" target="_blank" rel="noopener noreferrer">NCGNN</a> [2022 TNNLS]</td>
     <td class="tg-c3ow">-</td>
     <td class="tg-c3ow">-</td>
     <td class="tg-c3ow">Feat-aware</td>
@@ -154,7 +154,7 @@
     <td class="tg-c3ow">-</td>
   </tr>
   <tr>
-    <td class="tg-c3ow">GDAMNs [2022]</td>
+    <td class="tg-c3ow"><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9744550" target="_blank" rel="noopener noreferrer">GDAMN</a> [2022 TNNLS]</td>
     <td class="tg-c3ow">-</td>
     <td class="tg-c3ow">-</td>
     <td class="tg-c3ow">Wegt-aware</td>
@@ -162,7 +162,7 @@
     <td class="tg-c3ow">-</td>
   </tr>
   <tr>
-    <td class="tg-c3ow">RAW-GNN [2022]</td>
+    <td class="tg-c3ow"><a href="https://www.ijcai.org/proceedings/2022/0293.pdf" target="_blank" rel="noopener noreferrer">RAW-GNN</a> [2022 IJCAI]</td>
     <td class="tg-c3ow">Multi-hops</td>
     <td class="tg-c3ow">-</td>
     <td class="tg-c3ow">Feat-aware</td>
@@ -170,7 +170,7 @@
     <td class="tg-c3ow">-</td>
   </tr>
   <tr>
-    <td class="tg-c3ow">Deformable GCN [2022]</td>
+    <td class="tg-c3ow"><a href="https://ojs.aaai.org/index.php/AAAI/article/view/20765" target="_blank" rel="noopener noreferrer">Deformable GCN</a> [2022 AAAI]</td>
     <td class="tg-c3ow">-</td>
     <td class="tg-c3ow">Stru &amp; Feat Sim</td>
     <td class="tg-c3ow">Feat-aware</td>
@@ -178,7 +178,7 @@
     <td class="tg-c3ow">-</td>
   </tr>
   <tr>
-    <td class="tg-c3ow">MMP [2022]</td>
+    <td class="tg-c3ow"><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9747635" target="_blank" rel="noopener noreferrer">MMP</a> [2022 ICASSP]</td>
     <td class="tg-c3ow">-</td>
     <td class="tg-c3ow">-</td>
     <td class="tg-c3ow">-</td>
@@ -186,7 +186,7 @@
     <td class="tg-c3ow">-</td>
   </tr>
   <tr>
-    <td class="tg-c3ow">NLGCN [2022]</td>
+    <td class="tg-c3ow"><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9645300" target="_blank" rel="noopener noreferrer">NLGCN</a> [2022 TPAMI]</td>
     <td class="tg-c3ow">-</td>
     <td class="tg-c3ow">-</td>
     <td class="tg-c3ow">Wegt-aware</td>
@@ -194,7 +194,7 @@
     <td class="tg-c3ow">-</td>
   </tr>
   <tr>
-    <td class="tg-c3ow">HopGNN [2023]</td>
+    <td class="tg-c3ow"><a href="https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_From_Node_Interaction_To_Hop_Interaction_New_Effective_and_Scalable_CVPR_2023_paper.pdf" target="_blank" rel="noopener noreferrer">HopGNN</a> [2023 CVPR]</td>
     <td class="tg-c3ow">Multi-hops</td>
     <td class="tg-c3ow">-</td>
     <td class="tg-c3ow">-</td>
@@ -202,7 +202,7 @@
     <td class="tg-c3ow">-</td>
   </tr>
   <tr>
-    <td class="tg-c3ow">Ordered GNN [2023]</td>
+    <td class="tg-c3ow"><a href="https://openreview.net/pdf?id=wKPmPBHSnT6" target="_blank" rel="noopener noreferrer">Ordered GNN</a> [2023 ICLR]</td>
     <td class="tg-c3ow">-</td>
     <td class="tg-c3ow">-</td>
     <td class="tg-c3ow">-</td>
@@ -210,7 +210,7 @@
     <td class="tg-c3ow">-</td>
   </tr>
   <tr>
-    <td class="tg-c3ow">SNGNN [2023]</td>
+    <td class="tg-c3ow"><a href="https://www.sciencedirect.com/science/article/pii/S0020025523003493?ref=pdf_download&fr=RR-2&rr=7ef3eb96dce520e9" target="_blank" rel="noopener noreferrer">SNGNN</a> [2023 Information Science]</td>
     <td class="tg-c3ow">-</td>
     <td class="tg-c3ow">Feat Sim</td>
     <td class="tg-c3ow">Feat-aware</td>
@@ -218,7 +218,7 @@
     <td class="tg-c3ow">-</td>
   </tr>
   <tr>
-    <td class="tg-c3ow">CAGNNs [2023]</td>
+    <td class="tg-c3ow"><a href="https://www.sciencedirect.com/science/article/pii/S0020025523003493?ref=pdf_download&fr=RR-2&rr=7ef3eb96dce520e9" target="_blank" rel="noopener noreferrer">CAGNNs</a> [2023 TNNLS]</td>
     <td class="tg-c3ow">-</td>
     <td class="tg-c3ow">-</td>
     <td class="tg-c3ow">-</td>
@@ -226,7 +226,7 @@
     <td class="tg-c3ow">√</td>
   </tr>
   <tr>
-    <td class="tg-c3ow">CGP [2023]</td>
+    <td class="tg-c3ow"><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10164013" target="_blank" rel="noopener noreferrer">CGP</a> [2023 TNNLS]</td>
     <td class="tg-c3ow">-</td>
     <td class="tg-c3ow">-</td>
     <td class="tg-c3ow">Wegt-aware</td>
@@ -234,7 +234,7 @@
     <td class="tg-c3ow">-</td>
   </tr>
   <tr>
-    <td class="tg-c3ow">RFA-GNN [2023]</td>
+    <td class="tg-c3ow"><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10011169" target="_blank" rel="noopener noreferrer">RFA-GNN</a> [2023 TNNLS]</td>
     <td class="tg-c3ow">-</td>
     <td class="tg-c3ow">-</td>
     <td class="tg-c3ow">Wegt-aware</td>
@@ -242,7 +242,7 @@
     <td class="tg-c3ow">-</td>
   </tr>
   <tr>
-    <td class="tg-c3ow">HES-GSL [2023]</td>
+    <td class="tg-c3ow"><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10106110" target="_blank" rel="noopener noreferrer">HES-GSL</a> [2023 TNNLS]</td>
     <td class="tg-c3ow">-</td>
     <td class="tg-c3ow">Feat Sim</td>
     <td class="tg-c3ow">-</td>
@@ -250,7 +250,7 @@
     <td class="tg-c3ow">-</td>
   </tr>
   <tr>
-    <td class="tg-c3ow">SE-GSL [2023]</td>
+    <td class="tg-c3ow"><a href="https://penghao-bdsc.github.io/papers/A%20General%20and%20Effective%20Graph%20Structure%20Learning%20Framework%20through%20Structural%20Entropy%20Optimization.pdf" target="_blank" rel="noopener noreferrer">SE-GSL</a> [2023 WWW]</td>
     <td class="tg-c3ow">-</td>
     <td class="tg-c3ow">Stru &amp; Feat Sim</td>
     <td class="tg-c3ow">-</td>
@@ -258,7 +258,7 @@
     <td class="tg-c3ow">-</td>
   </tr>
   <tr>
-    <td class="tg-c3ow">AutoGCN [2023]</td>
+    <td class="tg-c3ow"><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9806316" target="_blank" rel="noopener noreferrer">AutoGCN</a> [2023 TKDE]</td>
     <td class="tg-c3ow">-</td>
     <td class="tg-c3ow">-</td>
     <td class="tg-c3ow">Wegt-aware</td>
@@ -266,7 +266,7 @@
     <td class="tg-c3ow">-</td>
   </tr>
   <tr>
-    <td class="tg-c3ow">GOAL [2023]</td>
+    <td class="tg-c3ow"><a href="https://openreview.net/pdf?id=KiUDs8yWX4" target="_blank" rel="noopener noreferrer">GOAL</a> [2023 ICML]</td>
     <td class="tg-c3ow">-</td>
     <td class="tg-c3ow">Stru &amp; Feat Sim</td>
     <td class="tg-c3ow">-</td>
@@ -274,7 +274,7 @@
     <td class="tg-c3ow">-</td>
   </tr>
   <tr>
-    <td class="tg-c3ow">GOAT [2023]</td>
+    <td class="tg-c3ow"><a href="https://openreview.net/pdf?id=Le2dVIoQun" target="_blank" rel="noopener noreferrer">GOAT</a> [2023 ICML]</td>
     <td class="tg-c3ow">-</td>
     <td class="tg-c3ow">-</td>
     <td class="tg-c3ow">Wegt-aware</td>
@@ -282,7 +282,7 @@
     <td class="tg-c3ow">-</td>
   </tr>
   <tr>
-    <td class="tg-c3ow">GraphTU [2023]</td>
+    <td class="tg-c3ow"><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10094813" target="_blank" rel="noopener noreferrer">GraphTU</a> [2023 ICASSP]</td>
     <td class="tg-c3ow">-</td>
     <td class="tg-c3ow">Stru &amp; Feat Sim</td>
     <td class="tg-c3ow">-</td>
@@ -291,7 +291,7 @@
   </tr>
   <tr>
     <td class="tg-c3ow" colspan="2" rowspan="5">Robust GNNs<br>(Adversarial Attacks)<br> </td>
-    <td class="tg-c3ow">GNNGuard [2020]</td>
+    <td class="tg-c3ow"><a href="https://proceedings.neurips.cc/paper_files/paper/2020/file/690d83983a63aa1818423fd6edd3bfdb-Paper.pdf" target="_blank" rel="noopener noreferrer">GNNGuard</a> [2020 NeurIPS]</td>
     <td class="tg-c3ow">-</td>
     <td class="tg-c3ow">Feat Sim</td>
     <td class="tg-c3ow">-</td>
@@ -299,7 +299,7 @@
     <td class="tg-c3ow">-</td>
   </tr>
   <tr>
-    <td class="tg-c3ow">GARNET [2022]</td>
+    <td class="tg-c3ow"><a href="https://proceedings.mlr.press/v198/deng22a/deng22a.pdf" target="_blank" rel="noopener noreferrer">GARNET</a> [2022 LoG]</td>
     <td class="tg-c3ow">-</td>
     <td class="tg-c3ow">-</td>
     <td class="tg-c3ow">Wegt-aware</td>
@@ -307,7 +307,7 @@
     <td class="tg-c3ow">-</td>
   </tr>
   <tr>
-    <td class="tg-c3ow">ATDGIA [2022]</td>
+    <td class="tg-c3ow"><a href="https://openreview.net/pdf?id=wkMG8cdvh7-" target="_blank" rel="noopener noreferrer">ATDGIA</a> [2022 ICLR]</td>
     <td class="tg-c3ow">-</td>
     <td class="tg-c3ow">-</td>
     <td class="tg-c3ow">Wegt-aware</td>
@@ -315,7 +315,7 @@
     <td class="tg-c3ow">-</td>
   </tr>
   <tr>
-    <td class="tg-c3ow">HeteRobust [2022]</td>
+    <td class="tg-c3ow"><a href="https://arxiv.org/pdf/2106.07767.pdf" target="_blank" rel="noopener noreferrer">HeteRobust</a> [2022]</td>
     <td class="tg-c3ow">-</td>
     <td class="tg-c3ow">-</td>
     <td class="tg-c3ow">-</td>
@@ -323,7 +323,7 @@
     <td class="tg-c3ow">√</td>
   </tr>
   <tr>
-    <td class="tg-c3ow">Mid-GCN [2023]</td>
+    <td class="tg-c3ow"><a href="https://arxiv.org/pdf/2302.08048.pdf" target="_blank" rel="noopener noreferrer">Mid-GCN</a> [2023 WWW]</td>
     <td class="tg-c3ow">-</td>
     <td class="tg-c3ow">-</td>
     <td class="tg-c3ow">Wegt-aware</td>
@@ -332,7 +332,7 @@
   </tr>
   <tr>
     <td class="tg-c3ow" colspan="2" rowspan="2">Unsupervised Node Classification<br> <br> <br> </td>
-    <td class="tg-c3ow">PairE [2022]</td>
+    <td class="tg-c3ow"><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9695254" target="_blank" rel="noopener noreferrer">PairE</a> [2022 TKDE]</td>
     <td class="tg-c3ow">-</td>
     <td class="tg-c3ow">-</td>
     <td class="tg-c3ow">-</td>
@@ -340,7 +340,7 @@
     <td class="tg-c3ow">-</td>
   </tr>
   <tr>
-    <td class="tg-c3ow">GREET [2023]</td>
+    <td class="tg-c3ow"><a href="https://ojs.aaai.org/index.php/AAAI/article/view/25573" target="_blank" rel="noopener noreferrer">GREET</a> [2023 AAAI]</td>
     <td class="tg-c3ow">-</td>
     <td class="tg-c3ow">-</td>
     <td class="tg-c3ow">Wegt-aware</td>
@@ -350,7 +350,7 @@
   <tr>
     <td class="tg-c3ow" rowspan="5">Others</td>
     <td class="tg-c3ow">Dynamic graphs</td>
-    <td class="tg-c3ow">GReTo [2023]</td>
+    <td class="tg-c3ow"><a href="https://openreview.net/pdf?id=8duT3mi_5n" target="_blank" rel="noopener noreferrer">GReTo</a> [2023 ICLR]</td>
     <td class="tg-c3ow">Multi-hops</td>
     <td class="tg-c3ow">-</td>
     <td class="tg-c3ow">Wegt-aware</td>
@@ -359,7 +359,7 @@
   </tr>
   <tr>
     <td class="tg-c3ow">Hypergraphs</td>
-    <td class="tg-c3ow">ED-HNN [2023]</td>
+    <td class="tg-c3ow"><a href="https://openreview.net/pdf?id=RiTjKoscnNd" target="_blank" rel="noopener noreferrer">ED-HNN</a> [2023 ICLR]</td>
     <td class="tg-c3ow">-</td>
     <td class="tg-c3ow">-</td>
     <td class="tg-c3ow">-</td>
@@ -368,7 +368,7 @@
   </tr>
   <tr>
     <td class="tg-c3ow" rowspan="2">Graph Anomaly Detection</td>
-    <td class="tg-c3ow">GDN [2023]</td>
+    <td class="tg-c3ow"><a href="http://staff.ustc.edu.cn/~hexn/papers/wsdm23-GDN.pdf" target="_blank" rel="noopener noreferrer">GDN</a> [2023 WSDM]</td>
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
@@ -376,7 +376,7 @@
     <td class="tg-c3ow"></td>
   </tr>
   <tr>
-    <td class="tg-c3ow">BHetero-GHRN [2023]</td>
+    <td class="tg-c3ow"><a href="https://blacksingular.github.io/papers/www23-GHRN.pdf" target="_blank" rel="noopener noreferrer">BHetero-GHRN</a> [2023 WWW]</td>
     <td class="tg-c3ow">-</td>
     <td class="tg-c3ow">-</td>
     <td class="tg-c3ow">Wegt-aware</td>
@@ -385,7 +385,7 @@
   </tr>
   <tr>
     <td class="tg-c3ow">Node Clustering</td>
-    <td class="tg-c3ow">DGCN [2023]</td>
+    <td class="tg-c3ow"><a href="https://openreview.net/pdf?id=DZxkGYipRu" target="_blank" rel="noopener noreferrer">DGCN</a> [2023 ICML]</td>
     <td class="tg-c3ow">-</td>
     <td class="tg-c3ow">Feat Sim</td>
     <td class="tg-c3ow">Feat-aware</td>
