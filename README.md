@@ -35,7 +35,7 @@
   </tr>
   <tr>
     <td class="tg-c3ow">Adjusted Homophily</td>
-    <td class="tg-c3ow">$$h_{adj}=(h_{edge}- \sum _{k=1}^C D_k^2/(2|E|)^2) / (1- \sum _{k=1}^C D_k^2 /(2|E|)^2)$$</td>
+    <td class="tg-c3ow">$$\mathcal{H}_{adj}=(\mathcal{H}_{edge}- \sum _{k=1}^C D_k^2/(2|E|)^2) / (1- \sum _{k=1}^C D_k^2 /(2|E|)^2)$$</td>
     <td class="tg-c3ow">Adjusted homophily satisfifies maximal agreement, asymptotic constant baseline, and empty class tolerance.</td>
   </tr>
   <tr>
