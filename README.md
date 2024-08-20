@@ -10,7 +10,7 @@
 4. Large Scale Learning on Non-Homophilous Graphs: New Benchmarks and Strong Simple Methods, NeurIPS, 2021 [[paper](https://proceedings.neurips.cc/paper_files/paper/2021/file/ae816a80e4c1c56caa2eb4e1819cbb2f-Paper.pdf)][[code](https://github.com/CUAI/Non-Homophily-Large-Scale)]
 
 # GNNs with Heterophily
-# 2023 Paper List
+# 2024 Paper List
 
 # 2023 Paper List
 1. Beyond Smoothing: Unsupervised Graph Representation Learning with Edge Heterophily Discriminating, AAAI [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/25573)][[code]( https://github.com/yixinliu233/GREET)]
