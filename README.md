@@ -1,3 +1,13 @@
+# Citation
+```
+@article{zheng2022graph,
+  title={Graph neural networks for graphs with heterophily: {A} survey},
+  author={Zheng, Xin and Wang, Yi and Liu, Yixin and Li, Ming and Zhang, Miao and Jin, Di and Yu, Philip S and Pan, Shirui},
+  journal={arXiv preprint arXiv:2202.07082},
+  year={2022}
+}
+```
+
 # Datasets
 1. Geom-GCN: Geometric Graph Convolutional Networks, ICLR, 2020 [[paper](https://openreview.net/pdf?id=S1e2agrFvS)][[code](https://github.com/graphdml-uiuc-jlu/geom-gcn)]
 2. Large Scale Learning on Non-Homophilous Graphs: New Benchmarks and Strong Simple Methods, NeurIPS, 2021 [[paper](https://proceedings.neurips.cc/paper_files/paper/2021/file/ae816a80e4c1c56caa2eb4e1819cbb2f-Paper.pdf)][[code](https://github.com/CUAI/Non-Homophily-Large-Scale)]
